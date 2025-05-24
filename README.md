@@ -1,3 +1,3 @@
-![Profile Screenshot](profile.png)
+![Profile Screenshot](profile.jpg)
 
-![Home Screenshot](home.png)
+![Home Screenshot](home.jpg)
