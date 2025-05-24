@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="#1c1c1c"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:src="@drawable/back_arrow"
+                android:id="@+id/BackPageArrow"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/quicksand_bold"
+                />
+            <LinearLayout
+                android:layout_gravity="end"
+                android:layout_marginLeft="140dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@drawable/rounded_background"
+                android:id="@+id/SupportButton"
+                >
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/comment"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="support"
+                    android:textColor="#72767C"
+                    android:fontFamily="@font/quicksand_semi_bold"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            >
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/man"
+                android:background="@drawable/rounded_image"
+                android:layout_gravity="left"
+                android:id="@+id/profilePicture"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="andaz kumar"
+                    android:textSize="20dp"
+                    android:textColor="#BCBEC2"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:layout_gravity="left"
+                    android:id="@+id/username"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="member since Dec, 2020"
+                    android:textSize="18dp"
+                    android:textColor="#72767C"
+                    android:fontFamily="@font/quicksand_semi_bold"
+                    android:layout_gravity="left"
+                    android:id="@+id/membershipText"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/outlined_circular_background"
+                android:padding="12dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="13dp"
+                android:id="@+id/editProfileButton"
+                >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pen"
+                />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/garage_background"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:id="@+id/creditGarageLayout"
+            >
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/car_background"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/car"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="get to know your vehicles, inside out"
+                    android:textStyle="bold"
+                    android:textColor="#9AA3A7"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:layout_gravity="left"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CRED garage"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:fontFamily="@font/quicksand_semi_bold"
+                        android:layout_gravity="left"
+                        />
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/right_arrow"
+                        android:layout_marginLeft="10dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/essentialsRecyclerView"
+            android:clipToPadding="false"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#0E0E0E"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR REWARDS &amp; BENEFITS"
+            android:textStyle="bold"
+            android:fontFamily="@font/quicksand_semi_bold"
+            android:textSize="16dp"
+            android:letterSpacing="0.1"
+            android:textColor="#72767C"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RewardsRecyclerView"
+            android:clipToPadding="false"
+            android:layout_marginTop="15dp"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
